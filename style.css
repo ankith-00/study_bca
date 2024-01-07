@@ -1,1 +1,209 @@
+*{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+}
 
+html{
+    height:100vh;
+    width: 100%;
+   font-family: Lexend;
+    scroll-behavior: smooth;
+ 
+  }
+/* Nav */
+.nav{
+  position: fixed;  
+  width : 100%;
+  height: 55px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between; 
+  z-index: 1000;
+  
+}
+.nav a{
+  text-decoration: none ;
+  color : #000;
+}
+.nav  .links{
+  margin-top: 17px;
+  margin-left: 10px;
+  margin-right : 8px  
+}
+.nav_links{
+
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px ;
+}
+.logo_name{
+  font-weight: bold;  
+}
+.logo_name_bca{
+  color: red;
+}
+.pay{
+  height: 29px ;
+  width: 78px ;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius : 14px; 
+  padding : 6px 0 0 10px ;
+  font-size: 13px;
+}
+/* Information container */
+.info_sec{
+  height: 93vh ;
+  width: 100%;
+  position: relative;
+  top:60px;  
+}
+.container{ 
+  position: relative;
+  top: 0px;
+  width: 100%;
+  padding : 4px 13px ;
+  
+}
+.content a{
+  text-decoration: none ;
+}
+/* Notes section */
+.notes_header_container{
+  height: 180px;  
+  padding: 60px 13px 13px 13px;
+  position: relative ;
+
+}
+.subject_container{
+  height: 500px;
+  width: 100%;
+  padding : 20px 18px ;
+  display: flex ;
+  flex-wrap : wrap; 
+  justify-content: space-between;
+  
+}
+.box{
+  height: 190px ;
+  width: 148px;
+  margin-top: 18px ;
+  border : 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center ;
+}
+.box img{
+  padding : 15px 0px 0px 0px ;
+}
+/* For all anchor tags */
+ a{
+  text-decoration : none ;
+}
+/* Empty box */
+.empty_box{
+  border: none;
+}
+.container_obvs{
+  height:auto ;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding : 20px 18px ;
+}
+.qpans{
+  padding-left: 15px;
+  margin-top: 30px;
+  
+}
+
+/* Questions papaer table */
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 90%;
+    margin : 15px 15px ;
+ }
+td {
+    width: auto;
+    height: 2em;
+    border: 1px solid #000;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content:center ;
+  }
+.bold{
+  font-weight: bold;
+}
+/* QR payment */
+.payment{
+  height: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: center ; 
+  margin-top : 30px;
+  
+}
+/*contact us */
+.contact_us{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin-top: -80px;
+  padding: 20px 14px;
+}
+/*Footer */
+.astro{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding : 1px 13px ;
+}
+.insta_astro{
+  margin-top: 20px; 
+}
+.h4_padding, .margin{
+  padding-left: 15px;
+  margin-top: 20px ;
+  font-family: Monteserrat;
+}
+.margin_top{
+  margin-top: 40px;
+}
+.english{
+  margin-top: -40px;
+
+}
+.padding{
+  padding-left:15px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
